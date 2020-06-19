@@ -1,5 +1,15 @@
-<p><%= params[:question] %></p>
+<div class="container">
+  <h1>Answers</h1>
+  <div class="user-question">
+    <h2><%= params[:question] %></h2>
+    <p>-you</p>
+  </div>
 
-<p><%= @answer %></p>
+  <div class="coach-answer">
+    <h2><%= @answer %></h2>
+    <p>-Coach</p>
+  </div>
 
-<%= link_to "Make another question", root_path %>
+  <%= link_to "Make another question", root_path %>
+
+</div>

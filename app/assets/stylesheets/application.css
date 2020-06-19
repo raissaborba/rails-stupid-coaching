@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+.container {
+    text-align: center;
+    margin: auto;
+    padding: 16px;
+}
+
+.coach-answer {
+    background-color: bisque;
+    width: 1450px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.user-question {
+    background-color: rgb(196, 236, 255);
+    width: 1450px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.coach-answer p {
+    font-style: italic;
+}
+
+.user-question p {
+    font-style: italic;
+}
